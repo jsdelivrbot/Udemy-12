@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78906d5e-e42c-48d5-84b1-d7f35d1cfa6a" name="Default" comment="" />
+    <list default="true" id="78906d5e-e42c-48d5-84b1-d7f35d1cfa6a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/React+Redux/src/index.js" afterPath="$PROJECT_DIR$/React+Redux/src/index.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +25,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/React+Redux/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
+            <state relative-caret-position="434">
+              <caret line="39" column="75" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="75" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -33,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_bar.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_bar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/React+Redux/src/components/search_bar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -47,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/React+Redux/src/components/video_list.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -103,6 +117,7 @@
         <option value="$PROJECT_DIR$/React+Redux/src/components/search_bar.js" />
         <option value="$PROJECT_DIR$/React+Redux/src/components/video_list.js" />
         <option value="$PROJECT_DIR$/React+Redux/src/components/video_list_item.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/React+Redux/src/index.js" />
       </list>
     </option>
@@ -124,9 +139,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="632" />
+    <option name="x" value="754" />
     <option name="y" value="23" />
-    <option name="width" value="808" />
+    <option name="width" value="686" />
     <option name="height" value="796" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -270,17 +285,18 @@
       <updated>1511958009244</updated>
       <workItem from="1511958010690" duration="8903000" />
       <workItem from="1512680868836" duration="508000" />
-      <workItem from="1513286543722" duration="20923000" />
+      <workItem from="1513286543722" duration="25302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30334000" />
+    <option name="totallyTimeSpent" value="34713000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="632" y="23" width="808" height="796" extended-state="0" />
+    <frame x="754" y="23" width="686" height="796" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39817232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39817232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -325,7 +341,7 @@
         <state relative-caret-position="150">
           <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
-            <element signature="e#24#65#0" expanded="true" />
+            <element signature="e#24#65#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -375,7 +391,7 @@
         <state relative-caret-position="150">
           <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
-            <element signature="e#24#65#0" expanded="true" />
+            <element signature="e#24#65#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -460,6 +476,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/React+Redux/src/components/video_detail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -472,6 +496,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/React+Redux/src/components/video_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/React+Redux/src/components/video_list_item.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -480,31 +514,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/React+Redux/src/components/video_list.js">
+    <entry file="file://$PROJECT_DIR$/React+Redux/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="434">
+          <caret line="39" column="75" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="75" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/React+Redux/src/components/search_bar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React+Redux/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
