@@ -1,0 +1,23 @@
+{
+  "name": "udemy",
+  "version": "1.0.0",
+  "description": "For studying purposes only",
+  "main": "index.js",
+  "dependencies": {   
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaZakrevskaja/Udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvetlanaZakrevskaja/Udemy/issues"
+  },
+  "homepage": "https://github.com/SvetlanaZakrevskaja/Udemy#readme"
+}
