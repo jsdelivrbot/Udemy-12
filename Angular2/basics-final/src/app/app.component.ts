@@ -6,12 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  showDetails: boolean = false;
-  clicks = [];
+  showSecret = false;
+  log = [];
 
-  onDisplayDetails() {
-    this.showDetails = !this.showDetails;
-    this.clicks.push('Click');
+  onToggleDetails() {
+    this.showSecret = !this.showSecret;
+    // this.log.push(this.log.length + 1);
+    this.log.push(new Date());
   }
-
 }

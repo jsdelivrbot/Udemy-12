@@ -6,12 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  showDetails: boolean = false;
-  clicks = [];
-
-  onDisplayDetails() {
-    this.showDetails = !this.showDetails;
-    this.clicks.push('Click');
-  }
-
 }
