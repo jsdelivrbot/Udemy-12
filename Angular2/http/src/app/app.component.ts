@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Response } from '@angular/http';
 
 import { ServerService } from './server.service';
 import { RKNService } from './rkn-check.service';
@@ -25,15 +24,7 @@ export class AppComponent {
       id: this.generateId()
     }
   ];
-  constructor(private serverService: ServerService, private rknService: RKNService) {
-    this.rknService.getData()
-      .subscribe(
-          (data: any[]) => {
-            console.log(data);
-          },
-          (error) => console.log(error)
-      );
-  }
+  constructor(private serverService: ServerService) {}
   onAddServer(name: string) {
     this.servers.push({
       name: name,
@@ -52,7 +43,8 @@ export class AppComponent {
     this.serverService.getServers()
         .subscribe(
             (servers: any[]) => {
-              console.log(servers);
+              //console.log(servers);
+              this.servers = servers;
             },
             (error) => console.log(error)
         );
